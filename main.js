@@ -64,12 +64,12 @@ $(document).ready(function() {
     };
   };
 
-  $(window).scroll(function() {
-    if ($(window).width() > 991) {
+  if ($(window).width() > 991) {
+    $(window).scroll(function() {
       updateScroll(homeImg, 4);
       updateScroll(section3, 8);
-    };
-  });
+    });
+  };
   // ---end parallax effect---
 
 
